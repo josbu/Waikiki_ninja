@@ -10,7 +10,6 @@
         <p>为了您的财产安全请关闭免密支付以及打开支付验密（京东-设置-支付设置-支付验密设置）。</p>
         <p>建议京东账户绑定微信以保证提现能到账。</p>
         <p>由于京东异地登录限制，扫码获取cookie只有2小时有效期，因此暂时关闭扫码功能，现需手动抓取Cookie。</p>
-        <p>且有效期不长，平均3-5天，因此需要及时更新。</p>
         <b>安全起见，WSCK可以在CK登录后录入，期限半永久。</b>
       </div>
       <div class="card-footet"></div>
@@ -70,7 +69,7 @@
           <span class="ml-2 px-2 py-1 bg-gray-200 rounded-full font-normal text-xs">余量：{{ marginCount }}</span>
         </div>
         <div class="card-body text-base leading-6">
-          <p>PC用户建议使用开源工具<a style="" href="https://github.com/Waikkii/JD_Get_Cookie" target="_blank" id="waikiki">JD_Get_Cookie</a>或者免下载<a style="" href="https://www.jianshu.com/p/3e7b19656a62" target="_blank" id="waikiki">点击这里</a>获取cookie并在下方填写。</p>
+          <p>PC用户建议<a style="" href="https://www.jianshu.com/p/3e7b19656a62" target="_blank" id="waikiki">点击这里</a>获取cookie并在下方填写。</p>
           <p>手机用户可以使用Alook浏览器登录<a style="" href="https://m.jd.com/" target="_blank" id="jd">JD官网</a>，并在菜单-工具箱-开发者工具-Cookies中获取（Android和iPhone通用）。</p>
           <p>另外也可以使用抓包工具（iPhone：Stream，Android：HttpCanary）抓取京东app的ck，要注意pt_key和pt_pin字段是以app_open开头的。</p>
           <p>cookie直接填入输入框即可，Ninja会自动正则提取pt_key和pt_pin。</p>
